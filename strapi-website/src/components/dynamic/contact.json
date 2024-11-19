@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_dynamic_contacts",
+  "info": {
+    "displayName": "contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_dynamic_key_features",
+  "info": {
+    "displayName": "KeyFeatures"
+  },
+  "options": {},
+  "attributes": {
+    "Model": {
+      "type": "string"
+    },
+    "Resolution": {
+      "type": "string"
+    },
+    "Display": {
+      "type": "string"
+    },
+    "Port": {
+      "type": "string"
+    }
+  }
+}

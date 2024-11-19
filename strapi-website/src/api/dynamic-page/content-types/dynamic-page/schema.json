@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dynamic_pages",
+  "info": {
+    "singularName": "dynamic-page",
+    "pluralName": "dynamic-pages",
+    "displayName": "dynamicPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "uid"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "keyPart": {
+      "displayName": "Dynamic",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.dynamic"
+    },
+    "KeyFeatures": {
+      "displayName": "KeyFeatures",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.key-features"
+    },
+    "Description": {
+      "displayName": "Description",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic.description"
+    },
+    "Footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.footer"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

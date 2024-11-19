@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_dynamic_footers",
+  "info": {
+    "displayName": "Footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Support": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.contact"
+    },
+    "StayConnected": {
+      "displayName": "about us",
+      "type": "component",
+      "repeatable": false,
+      "component": "dynamic.about-us"
+    },
+    "AboutUs": {
+      "displayName": "ImportantLink",
+      "type": "component",
+      "repeatable": true,
+      "component": "dynamic.important-link"
+    }
+  }
+}

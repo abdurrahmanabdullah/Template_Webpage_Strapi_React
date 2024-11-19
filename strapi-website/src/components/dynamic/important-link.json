@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_dynamic_important_links",
+  "info": {
+    "displayName": "ImportantLink"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

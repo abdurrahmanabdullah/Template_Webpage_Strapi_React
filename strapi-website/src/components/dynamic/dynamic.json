@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_dynamic_dynamics",
+  "info": {
+    "displayName": "Dynamic"
+  },
+  "options": {},
+  "attributes": {
+    "price": {
+      "type": "biginteger"
+    },
+    "RegularPrice": {
+      "type": "biginteger"
+    },
+    "Status": {
+      "type": "string"
+    },
+    "productCode": {
+      "type": "biginteger"
+    },
+    "Brand": {
+      "type": "string"
+    }
+  }
+}
